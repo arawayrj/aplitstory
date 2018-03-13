@@ -34,9 +34,12 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+.navbar{
+	padding-bottom: 24px;
+}
+
 h1{
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
-	padding: 8px;
+	/* padding: 8px; */
 }
-
