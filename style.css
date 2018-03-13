@@ -1,7 +1,9 @@
 html, body {
 	margin: 0;
-	background: url(img.jpg) no-repeat center center fixed;
+	background: url(img.jpg) /* no-repeat center center fixed */;
 	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 ul {
@@ -44,4 +46,13 @@ h1{
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
 	/* padding: 8px; */
+}
+
+.pageContent{
+	float: center;
+	background-color: white;
+	/* overflow: auto; */
+	height: 800px;
+	width: 100%;
+	z-index: 2;
 }
