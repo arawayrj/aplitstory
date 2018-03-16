@@ -24,7 +24,14 @@
 		<h1>Other Text</h1>
 	</div>
 	<div class="pageContent">
-		
+		<h1 id="testHead">Test Heading</h1>
+		<input id="clickMe" type="button" value="clickme" onclick="animate();" />
+		<script type="text/javascript">
+			function animate(){
+				var elem = document.getElementById('testHead');
+				elem.className += " animated fadeIn";
+			}
+		</script>
 	</div>
   </body>
 </html>
