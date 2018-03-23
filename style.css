@@ -1,9 +1,9 @@
 html, body {
 	margin: 0;
-	background: url(img.jpg) /* no-repeat center center fixed */;
+	/*background: url(img.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 ul {
