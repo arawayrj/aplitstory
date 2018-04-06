@@ -20,8 +20,9 @@
 	<img id="headPicture" style="position: fixed; z-index: -1;" src="source.gif"/>
         <script>
             var newHeight = document.documentElement.clientHeight;
+	    var newWidth = document.documentElement.clientWidth;
             document.getElementById("pictureContainer").style = "height: " + newHeight.toString() + "px";
-	    document.getElementById("headPicture").style = "height: " + newHeight.toString() + "px";
+	    document.getElementById("headPicture").style = "width: " + newWidth.toString() + "px";
         </script>
 		<h1>Random Text</h1>
 		<h1>Other Text</h1>
