@@ -1,5 +1,7 @@
 html, body {
 	margin: 0;
+    height: 100%;
+    display: inline;
 	/*background: url(img.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -46,7 +48,13 @@ li a:hover:not(.active) {
 h1{
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
+    font-size:4em;
 	/* padding: 8px; */
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color:black;
 }
 
 .pageContent{
@@ -56,5 +64,28 @@ h1{
 	height: 800px;
 	width: 100%;
 	z-index: 2;
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img1 {
+    background-image: url('desert.png');
+    min-height:100%;
+}
+
+.bg-img2 {
+    background-image: url('desert.jpg');
+    min-height:400px;
+}
+
+.parallax .headings {
+    padding-left: 66%;
+    padding-top: 40%;
 }
 
