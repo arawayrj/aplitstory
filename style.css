@@ -43,6 +43,8 @@ li a:hover:not(.active) {
 .navbar{
 	padding-bottom: 24px;
 	z-index: 1000;
+    margin-bottom: 0px;
+    min-height: unset;
 }
 
 h1{
