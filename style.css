@@ -65,7 +65,12 @@ h2 {
 }
 
 .bg-img2 {
-    background-image: url('desert.png');
+    background-image: url('shepherd.jpg');
+    min-height: 800px;
+}
+
+.bg-img3 {
+    background-image: url('king.jpg');
     min-height: 800px;
 }
 
@@ -113,6 +118,10 @@ blockquote:after {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
+}
+
+#conclusion {
+    min-height:100%;
 }
 
 
