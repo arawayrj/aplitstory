@@ -74,6 +74,21 @@ h2 {
     min-height: 800px;
 }
 
+.bg-img4 {
+    background-image: url('merchant.png');
+    min-height: 800px;
+}
+
+.bg-img5 {
+    background-image: url('fatima.jpg');
+    min-height: 800px;
+}
+
+.bg-img6 {
+    background-image: url('gold.jpg');
+    min-height: 800px;
+}
+
 .parallax .headings {
     padding-left: 66%;
     padding-top: 40%;
@@ -111,6 +126,7 @@ blockquote p {
     display: inline;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
+    font-size: 2em;
 }
 
 blockquote:after {
@@ -122,8 +138,7 @@ blockquote:after {
     vertical-align: -0.4em;
 }
 
-#conclusion {
-    min-height:100%;
+#final {
 }
 
 p {
@@ -139,4 +154,16 @@ label {
 #fatimaContent {
     text-align:center;
     vertical-align:middle;
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
