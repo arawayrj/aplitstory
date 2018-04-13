@@ -9,20 +9,10 @@ html, body {
 	background-repeat: no-repeat;*/
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
+body {
+    position:relative;
 }
 
-li {
-    float: left;
-}
 
 li a {
     display: block;
@@ -33,26 +23,11 @@ li a {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-    text-decoration:none;
+li.active a {
+    /*color: #000 !important;*/
+    background:sandybrown !important;
 }
 
-li a:hover {
-    text-decoration:none;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-.navbar{
-	padding-bottom: 44px;
-	z-index: 1000;
-    margin-bottom: 0px;
-    min-height: unset;
-    border: none;
-}
 
 h1{
 	font-family: 'Ubuntu', sans-serif;
@@ -101,6 +76,10 @@ h2 {
 .spacer {
     margin-top: -44px;
     padding-top: 44px;
+}
+
+.wrapper {
+    background-color: #C2B280;
 }
 
 
