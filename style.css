@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
     height: 100%;
     display: inline;
+    overflow:auto;
 	/*background: url(img.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -34,6 +35,11 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #111;
+    text-decoration:none;
+}
+
+li a:hover {
+    text-decoration:none;
 }
 
 .active {
@@ -41,10 +47,11 @@ li a:hover:not(.active) {
 }
 
 .navbar{
-	padding-bottom: 24px;
+	padding-bottom: 44px;
 	z-index: 1000;
     margin-bottom: 0px;
     min-height: unset;
+    border: none;
 }
 
 h1{
@@ -77,17 +84,23 @@ h2 {
 }
 
 .bg-img1 {
-    background-image: url('desert.png');
+    background-image: url('desert.jpg');
     min-height:100%;
 }
 
 .bg-img2 {
-    background-image: url('desert.jpg');
-    min-height: 400px;
+    background-image: url('desert.png');
+    min-height: 800px;
 }
 
 .parallax .headings {
     padding-left: 66%;
     padding-top: 40%;
 }
+
+.spacer {
+    margin-top: -44px;
+    padding-top: 44px;
+}
+
 
